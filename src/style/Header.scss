@@ -1,0 +1,31 @@
+#header {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    &--nav {
+      a {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.468947px;
+        color: #19191B;
+        margin: 10px 20px;
+      }
+    }
+
+    &--btn {
+      button {
+        color: white;
+        background: #FF7143;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
